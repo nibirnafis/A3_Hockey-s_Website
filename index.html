@@ -26,17 +26,17 @@
         <nav></nav>
 
         <!-- carosel -->
-        <div class="carousel">
+        <div class="carousel my-24">
             <div id="slide1" class="flex justify-center carousel-item relative w-full">
                 <img src="Images/1.png" alt="">
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div class="absolute">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide2" class="flex justify-center carousel-item relative w-full">
                 <img src="Images/1.1.png" alt="">
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div class="absolute ">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
@@ -93,13 +93,15 @@
                 <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="grid grid-cols-1 gap-6 pt-8 pb-24 my-8 border-dashed border-2 border-r-0 border-l-0">
-                <div class="grid grid-cols-2 gap-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div class="relative">
                         <div class="absolute left-10 bottom-9">
-                            <h2 class="font-extrabold text-[28px] mb-4 text-white">Junior Program</h2>
-                            <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla.
-                            Tortor congue sed et in.</p>
+                            <div>
+                                <h2 class="font-extrabold text-[28px] mb-1 lg:mb-4 text-white">Junior Program</h2>
+                                <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla.
+                                Tortor congue sed et in.</p>
+                            </div>
                             <button class="btn btn-sm lg:btn-lg mt-6 bg-[#FF4240] border-0 text-white">Register Now!</button>
                         </div>
                         <div>
@@ -108,10 +110,12 @@
                     </div>
                     <div class="relative">
                         <div class="absolute left-10 bottom-9">
-                            <h2 class="font-extrabold text-[28px] mb-4 text-white">Junior Program</h2>
-                            <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla.
-                            Tortor congue sed et in.</p>
+                            <div>
+                                <h2 class="font-extrabold text-[28px] mb:1 lg:mb-4 text-white">Junior Program</h2>
+                                <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla.
+                                Tortor congue sed et in.</p>
+                            </div>
                             <button class="btn btn-sm lg:btn-lg mt-6 bg-[#FF4240] border-0 text-white">Register Now!</button>
                         </div>
                         <div>
@@ -121,10 +125,12 @@
                 </div>
                 <div class="relative">
                     <div class="absolute left-10 bottom-9">
-                        <h2 class="font-extrabold text-[28px] mb-4 text-white">Junior Program</h2>
-                        <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla.
-                        Tortor congue sed et in.</p>
+                        <div>
+                            <h2 class="font-extrabold text-[28px] mb-1 lg:mb-4 text-white">Junior Program</h2>
+                            <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla.
+                            Tortor congue sed et in.</p>
+                        </div>
                         <button class="btn btn-sm lg:btn-lg mt-6 bg-[#FF4240] border-0 text-white">Register Now!</button>
                     </div>
                     <div>
@@ -136,12 +142,206 @@
 
             <!-- section-4 -->
 
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center ">
                 <div class="flex flex-col items-center text-center mb-8">
                     <h2 class="font-extrabold text-4xl mb-4">Our New Products</h2>
-                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat 
+                    <br> dolor. Purus urna in sit nullam proin. </p>
                 </div>
+                <div class=" grid grid-cols-1 lg:grid-cols-2 gap-5 py-12 border-dashed border-2 border-r-0 border-l-0">
 
+                    <!-- card-1 -->
+                    
+                    <div class="flex flex-col lg:flex-row items-center gap-5 p-5 lg:p-5 rounded-2xl border-2">
+                        <img src="Images/5.png" alt="">
+                        <div>
+                            <div class="grid grid-cols-3 ml-2 lg:ml-0">
+                                <div class="flex">
+                                    <img src="Images/star.png" alt="">
+                                    <p class="text-base font-medium">5.0</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/visibility.png" alt="">
+                                    <p class="text-base font-medium">20</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/heart.png" alt="">
+                                    <p class="text-base font-medium">200</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-extrabold mt-3 ml-2 lg:ml-0">World Cup Flags Football</h3>
+                            <p class="mt-3 ml-2 lg:ml-0">Dolor sit amet consectetur. Ut urna diambr
+                                <br> quis sagittis. </p>
+                            <div class="flex flex-col lg:flex-row gap-3 mt-3 ml-2 lg:ml-0">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex items-center gap-1">
+                                    <div><img src="Images/shopping-cart.png" alt=""></div>
+                                    <div><p class="text-base font-medium">Delivery Fee : Free</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-2 -->
+                    
+                    <div class="flex flex-col lg:flex-row items-center gap-5 p-5 lg:p-5 rounded-2xl border-2">
+                        <img src="Images/6.png" alt="">
+                        <div>
+                            <div class="grid grid-cols-3 ml-2 lg:ml-0">
+                                <div class="flex">
+                                    <img src="Images/star.png" alt="">
+                                    <p class="text-base font-medium">5.0</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/visibility.png" alt="">
+                                    <p class="text-base font-medium">20</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/heart.png" alt="">
+                                    <p class="text-base font-medium">200</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-extrabold mt-3 ml-2 lg:ml-0">World Cup Flags Football</h3>
+                            <p class="mt-3 ml-2 lg:ml-0">Dolor sit amet consectetur. Ut urna diambr
+                                <br> quis sagittis. </p>
+                            <div class="flex flex-col lg:flex-row gap-3 mt-3 ml-2 lg:ml-0">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex items-center gap-1">
+                                    <div><img src="Images/shopping-cart.png" alt=""></div>
+                                    <div><p class="text-base font-medium">Delivery Fee : Free</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-3 -->
+                    
+                    <div class="flex flex-col lg:flex-row items-center gap-5 p-5 lg:p-5 rounded-2xl border-2">
+                        <img src="Images/7.png" alt="">
+                        <div>
+                            <div class="grid grid-cols-3 ml-2 lg:ml-0">
+                                <div class="flex">
+                                    <img src="Images/star.png" alt="">
+                                    <p class="text-base font-medium">5.0</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/visibility.png" alt="">
+                                    <p class="text-base font-medium">20</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/heart.png" alt="">
+                                    <p class="text-base font-medium">200</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-extrabold mt-3 ml-2 lg:ml-0">World Cup Flags Football</h3>
+                            <p class="mt-3 ml-2 lg:ml-0">Dolor sit amet consectetur. Ut urna diambr
+                                <br> quis sagittis. </p>
+                            <div class="flex flex-col lg:flex-row gap-3 mt-3 ml-2 lg:ml-0">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex items-center gap-1">
+                                    <div><img src="Images/shopping-cart.png" alt=""></div>
+                                    <div><p class="text-base font-medium">Delivery Fee : Free</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-4 -->
+                    
+                    <div class="flex flex-col lg:flex-row items-center gap-5 p-5 lg:p-5 rounded-2xl border-2">
+                        <img src="Images/8.png" alt="">
+                        <div>
+                            <div class="grid grid-cols-3 ml-2 lg:ml-0">
+                                <div class="flex">
+                                    <img src="Images/star.png" alt="">
+                                    <p class="text-base font-medium">5.0</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/visibility.png" alt="">
+                                    <p class="text-base font-medium">20</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/heart.png" alt="">
+                                    <p class="text-base font-medium">200</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-extrabold mt-3 ml-2 lg:ml-0">World Cup Flags Football</h3>
+                            <p class="mt-3 ml-2 lg:ml-0">Dolor sit amet consectetur. Ut urna diambr
+                                <br> quis sagittis. </p>
+                            <div class="flex flex-col lg:flex-row gap-3 mt-3 ml-2 lg:ml-0">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex items-center gap-1">
+                                    <div><img src="Images/shopping-cart.png" alt=""></div>
+                                    <div><p class="text-base font-medium">Delivery Fee : Free</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-5 -->
+                    
+                    <div class="flex flex-col lg:flex-row items-center gap-5 p-5 lg:p-5 rounded-2xl border-2">
+                        <img src="Images/9.png" alt="">
+                        <div>
+                            <div class="grid grid-cols-3 ml-2 lg:ml-0">
+                                <div class="flex">
+                                    <img src="Images/star.png" alt="">
+                                    <p class="text-base font-medium">5.0</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/visibility.png" alt="">
+                                    <p class="text-base font-medium">20</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/heart.png" alt="">
+                                    <p class="text-base font-medium">200</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-extrabold mt-3 ml-2 lg:ml-0">World Cup Flags Football</h3>
+                            <p class="mt-3 ml-2 lg:ml-0">Dolor sit amet consectetur. Ut urna diambr
+                                <br> quis sagittis. </p>
+                            <div class="flex flex-col lg:flex-row gap-3 mt-3 ml-2 lg:ml-0">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex items-center gap-1">
+                                    <div><img src="Images/shopping-cart.png" alt=""></div>
+                                    <div><p class="text-base font-medium">Delivery Fee : Free</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-6 -->
+                    
+                    <div class="flex flex-col lg:flex-row items-center gap-5 p-5 lg:p-5 rounded-2xl border-2">
+                        <img src="Images/10.png" alt="">
+                        <div>
+                            <div class="grid grid-cols-3 ml-2 lg:ml-0">
+                                <div class="flex">
+                                    <img src="Images/star.png" alt="">
+                                    <p class="text-base font-medium">5.0</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/visibility.png" alt="">
+                                    <p class="text-base font-medium">20</p>
+                                </div>
+                                <div class="flex">
+                                    <img src="Images/heart.png" alt="">
+                                    <p class="text-base font-medium">200</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-extrabold mt-3 ml-2 lg:ml-0">World Cup Flags Football</h3>
+                            <p class="mt-3 ml-2 lg:ml-0">Dolor sit amet consectetur. Ut urna diambr
+                                <br> quis sagittis. </p>
+                            <div class="flex flex-col lg:flex-row gap-3 mt-3 ml-2 lg:ml-0">
+                                <h3 class="text-lg font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                                <div class="flex items-center gap-1">
+                                    <div><img src="Images/shopping-cart.png" alt=""></div>
+                                    <div><p class="text-base font-medium">Delivery Fee : Free</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
             </div>
     </main>
 
