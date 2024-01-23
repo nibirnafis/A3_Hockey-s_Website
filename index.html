@@ -55,28 +55,28 @@
             </div>
             <div class="flex flex-col lg:flex-row gap-6 lg:gap-6 pt-8 pb-24 my-8 border-dashed border-2 border-r-0 border-l-0">
                 <div class="flex flex-col items-center">
-                    <div class="radial-progress mb-6 " style="--value:25;" role="progressbar">25%</div>
+                    <div class="radial-progress mb-6 text-yellow-400" style="--value:25;" role="progressbar">25%</div>
                     <div class="flex flex-col items-center text-center">
                         <h1 class="font-semibold text-xl mb-4">Prayer Facility</h1>
                         <p>Amet consectetur.Condimentum <br> dignissim adipiscing .</p>
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="radial-progress mb-6" style="--value:50;" role="progressbar">50%</div>
+                    <div class="radial-progress mb-6 text-green-600" style="--value:50;" role="progressbar">50%</div>
                     <div class="flex flex-col items-center text-center">
                         <h1 class="font-semibold text-xl mb-4">Experienced Coach</h1>
                         <p>Amet consectetur.Condimentum <br> dignissim adipiscing .</p>
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="radial-progress mb-6" style="--value:75;" role="progressbar">75%</div>
+                    <div class="radial-progress mb-6 text-sky-500" style="--value:75;" role="progressbar">75%</div>
                     <div class="flex flex-col items-center text-center">
                         <h1 class="font-semibold text-xl mb-4">Senior Player</h1>
                         <p>Amet consectetur.Condimentum <br> dignissim adipiscing .</p>
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="radial-progress mb-6" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress mb-6 text-red-600" style="--value:90;" role="progressbar">90%</div>
                     <div class="flex flex-col items-center text-center">
                         <h1 class="font-semibold text-xl mb-4">Training Ground</h1>
                         <p>Amet consectetur.Condimentum <br> dignissim adipiscing .</p>
@@ -363,7 +363,7 @@
                 </div>
             </div>
     
-            <div class="flex justify-center gap-6">
+            <div class="flex flex-col lg:flex-row justify-center gap-6 py-12 border-dashed border-2 border-r-0 border-b-0 border-l-0">
                 <div class="flex flex-col items-center gap-6 p-12 border-2">
                     <div class="card w-96 bg-[#BCED6D1A] text-#131318">
                         <div class="card-body">
@@ -396,42 +396,83 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-2 items-center">
+                <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
                     <div>
                         <h1 class="text-xl font-bold mb-4">Your Name</h1>
-                        <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs py-7" />
+                        <input type="text" placeholder="Enter your full name" class="text-base font-normal input input-bordered w-full max-w-xs py-7 mb-5 lg:mb-0 bg-[#13131808] border-none" />
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold mb-4 ml-6">Your Email</h1>
-                        <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs ml-6 py-7" />
+                        <h1 class="text-xl font-bold mb-4 ml-0 lg:ml-6">Your Email</h1>
+                        <input type="text" placeholder="Enter your email" class="text-base font-normal input input-bordered w-full max-w-xs ml-0 lg:ml-6 py-7 mb-5 lg:mb-0 bg-[#13131808] border-none" />
                     </div>
                     <div>
                         <h1 class="text-xl font-bold mb-4">Subject</h1>
-                        <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs py-7" />
+                        <input type="text" placeholder="Enter your subject" class="text-base font-normal input input-bordered w-full max-w-xs py-7 mb-5 lg:mb-0 bg-[#13131808] border-none" />
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold mb-4 ml-6">Phone Number</h1>
-                        <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs ml-6 py-7" />
+                        <h1 class="text-xl font-bold mb-4 ml-0 lg:ml-6">Phone Number</h1>
+                        <input type="text" placeholder="Enter your phone number" class="text-base font-normal input input-bordered w-full max-w-xs ml-0 lg:ml-6 py-7 mb-5 lg:mb-0 bg-[#13131808] border-none" />
                     </div>
-                    <div class=" col-span-2">
+                    <div class="col-span-1 lg:col-span-2">
                         <h1 class="text-xl font-bold mb-4">Message</h1>
-                        <input type="text" placeholder="Write your message" class="input input-bordered w-full py-24 " />
+                        <input type="text" placeholder="Write your message" class="text-base font-normal input input-bordered w-full py-24 mb-5 lg:mb-0 bg-[#13131808] border-none" />
                     </div>
-                    <div class="flex justify-center bg-[#FF4240] text-white col-span-2 p-4 w-full rounded-xl">
+                    <div class="flex justify-center bg-[#FF4240] text-white col-span-1 lg:col-span-2 p-4 w-full rounded-xl">
                         <button>Send Message</button>
                     </div>
+                </div>                
+            </div>
+            <div class="text-2xl font-bold flex flex-col items-center gap-6 py-9 bg-[#13131808]">
+                <h2>Social Media</h2>
+                <div class="flex gap-5">
+                    <img src="Images/twitter.png" alt="">
+                    <img src="Images/facebook.png" alt="">
+                    <img src="Images/instagram.png" alt="">
                 </div>
-                
             </div>
         </div>
 
-        <!-- col-span-2 -->
-        <!-- rounded-2xl border-2 -->
-
     </main>
 
-    <footer>
+    <footer class="mt-24">
+        <footer class="footer p-10 bg-[#131318] text-[#FFFFFF]">
+            
+            <div>
+                <h1>Get In Touch</h1>
+                <p>Dit amet consectetur. Condimentum <br>
+                    adipiscing aliquam turpis placerat dolor. Purus <br>
+                    urna in sit nullam proin. </p>
+                <div class="flex">
+                    <img class="bg-[#ffffff]" src="Images/email.png" alt="">
+                    <p>hockeys@support.com</p>
+                </div>
+                <div class="flex">
+                    <img class="bg-[#ffffff]" src="Images/phone.png" alt="">
+                    <p>(+62) 123-321-543</p>
+                </div>
+            </div>
 
+            <nav>
+              <header class="footer-title">Company</header> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Support</header> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Services</header> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+          </footer>
     </footer>
     
 </body>
