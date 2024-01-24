@@ -23,26 +23,44 @@
 </head>
 <body class="font-Manrope">
     <header>
-        <nav></nav>
-
-        <!-- carosel -->
-        <div class="carousel my-24">
-            <div class="absolute bg-[#131318]">
-                <h2>Meet all the heroes from the field</h2>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
-            </div>
-            <div id="slide1" class="flex justify-center carousel-item relative w-full">
-                <img src="Images/1.png" alt="">
-                <div class="absolute">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+        <nav class="flex flex-row justify-center">
+            <div class="flex flex-row items-center">
+                <h1 class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</h1>
+                <ul class="flex">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Pages</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="navbar-end">
+                    <a class="btn">Button</a>
                 </div>
             </div>
-            <div id="slide2" class="flex justify-center carousel-item relative w-full">
-                <img src="Images/1.1.png" alt="">
-                <div class="absolute ">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
+        </nav>
+
+        <!-- carosel -->
+        <div class="relative">
+            <!-- <div class="absolute ">
+                <div class="text-white bg-[#131318]">
+                    <h2>Meet all the heroes from the field</h2>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div> -->
+            <div class="carousel my-24">
+                <div id="slide1" class="flex justify-center carousel-item relative w-full">
+                    <img src="Images/1.png" alt="">
+                    <div class="absolute">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="flex justify-center carousel-item relative w-full">
+                    <img src="Images/1.1.png" alt="">
+                    <div class="absolute ">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -350,10 +368,80 @@
 
             <!-- section-5 -->
 
-        <div>
-            <div class="flex flex-col items-center text-center mb-8">
-                <h2 class="font-extrabold text-4xl mb-4">Clients Question</h2>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        <div class="my-10">
+            <div>
+                <div class="flex flex-col items-center text-center mb-8">
+                    <h2 class="font-extrabold text-4xl mb-4">Clients Question</h2>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+            
+            <div class="flex flex-col justify-center gap-7 lg:flex-row py-12 border-dashed border-2 border-r-0 border-l-0">
+                <div class="flex justify-center">
+                    <img src="Images/11.png" alt="">
+                </div>
+                <div class="flex-col gap-">
+                    <div class="collapse collapse-plus bg-inherit border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-bold">
+                         Our Equipment
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br>
+                            sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-inherit border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Click to open this one and close others
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br>
+                            sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-inherit border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br>
+                            sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-inherit border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br>
+                            sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-inherit border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Booking
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br>
+                            sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-inherit border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Pricings
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>hDolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br>
+                            sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -438,45 +526,50 @@
 
     </main>
 
+        <!-- footer -->
+
     <footer class="mt-24">
-        <footer class="footer p-10 bg-[#131318] text-[#FFFFFF]">
+        <footer class="footer flex flex-col lg:flex-row items-center lg:justify-center gap-10 lg:gap-40 p-10 bg-[#131318] text-[#FFFFFF]">
             
-            <div class="flex flex-col it">
-                <h1>Get In Touch</h1>
-                <p>Dit amet consectetur. Condimentum <br>
+            <div class="flex flex-col items-center lg:items-start">
+                <h1 class="text-2xl font-bold">Get In Touch</h1>
+                <p class="text-center lg:text-left">Dit amet consectetur. Condimentum <br>
                     adipiscing aliquam turpis placerat dolor. Purus <br>
                     urna in sit nullam proin. </p>
-                <div class="flex">
+                <div class="flex gap-4">
                     <img class="bg-[#ffffff]" src="Images/email.png" alt="">
                     <p>hockeys@support.com</p>
                 </div>
-                <div class="flex">
+                <div class="flex gap-4">
                     <img class="bg-[#ffffff]" src="Images/phone.png" alt="">
                     <p>(+62) 123-321-543</p>
                 </div>
             </div>
 
-            <div class="flex">
-                <div class="flex flex-col">
+            <div class="flex gap-10 lg:gap-40">
+                <div class="flex flex-col items-center lg:items-start">
                     <header class="footer-title">Company</header> 
-                    <a class="link link-hover">Branding</a>
-                    <a class="link link-hover">Design</a>
-                    <a class="link link-hover">Marketing</a>
-                    <a class="link link-hover">Advertisement</a>
+                    <a class="link link-hover ">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Article</a>
+                    <a class="link link-hover">Legal Notice</a>
                 </div> 
-                <div class="flex flex-col">
+                <div class="flex flex-col items-center lg:items-start">
                     <header class="footer-title">Support</header> 
-                    <a class="link link-hover">About us</a>
-                    <a class="link link-hover">Contact</a>
-                    <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
                 </div>
             </div> 
-            <div>
+            <div class="flex flex-col items-center lg:items-start">
               <header class="footer-title">Services</header> 
-              <a class="link link-hover">Terms of use</a>
-              <a class="link link-hover">Privacy policy</a>
-              <a class="link link-hover">Cookie policy</a>
+              <a class="link link-hover">Academy</a>
+              <a class="link link-hover">Group Lesson</a>
+              <a class="link link-hover">Private Lesson</a>
+              <a class="link link-hover">Hockeys for kids</a>
+              <a class="link link-hover">Hockeys for Adult</a>
             </div>
           </footer>
     </footer>
